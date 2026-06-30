@@ -141,7 +141,6 @@
       display: none;
     }
 
-    #day-1:checked ~ .tab-list label[for="day-1"],
     #day-2:checked ~ .tab-list label[for="day-2"],
     #day-3:checked ~ .tab-list label[for="day-3"],
     #day-4:checked ~ .tab-list label[for="day-4"] {
@@ -150,7 +149,6 @@
       border-color: var(--gold);
     }
 
-    #day-1:checked ~ .day-1-panel,
     #day-2:checked ~ .day-2-panel,
     #day-3:checked ~ .day-3-panel,
     #day-4:checked ~ .day-4-panel {
@@ -357,14 +355,14 @@
 <body>
   <main class="page">
     <header>
-      <div class="eyebrow">AI Engineer World's Fair 2026 - Four-Day Guide</div>
+      <div class="eyebrow">AI Engineer World's Fair 2026 - Day 2-4 Guide</div>
       <h1>Raymond's Recommended Schedule</h1>
       <p class="intro">
         A practical track for moving from vibe coding into durable AI app building: Codex workflows, quality gates,
         AI-native productivity, agent infrastructure, context engineering, and skill design.
       </p>
       <div class="chips" aria-label="Schedule themes">
-        <span class="chip">June 29-July 2, 2026</span>
+        <span class="chip">June 30-July 2, 2026</span>
         <span class="chip">Moscone West</span>
         <span class="chip">Separate tabs by day</span>
         <span class="chip">Highlighted sessions are highest priority</span>
@@ -373,164 +371,14 @@
     </header>
 
     <div class="tabs">
-      <input class="tab-radio" type="radio" name="day-tabs" id="day-1" checked>
-      <input class="tab-radio" type="radio" name="day-tabs" id="day-2">
+      <input class="tab-radio" type="radio" name="day-tabs" id="day-2" checked>
       <input class="tab-radio" type="radio" name="day-tabs" id="day-3">
       <input class="tab-radio" type="radio" name="day-tabs" id="day-4">
 
       <div class="tab-list" role="tablist" aria-label="Conference days">
-        <label for="day-1">Day 1 - Mon 6/29</label>
         <label for="day-2">Day 2 - Tue 6/30</label>
         <label for="day-3">Day 3 - Wed 7/1</label>
         <label for="day-4">Day 4 - Thu 7/2</label>
-      </div>
-
-      <div class="tab-panel day-1-panel">
-    <section class="section" aria-labelledby="priority">
-      <div class="section-head">
-        <h2 id="priority">Day 1 Priority Schedule</h2>
-        <div class="hint">Click any title to open the official session details.</div>
-      </div>
-
-      <div class="grid">
-        <article class="session highlight">
-          <div class="time">9:00-11:00am<span class="badge">Highlight</span></div>
-          <div>
-            <h3><a href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_03_0900_2026_06_13t06_05_35_605z">Cooking with Codex</a></h3>
-            <div class="meta"><span class="pill">Track 3</span><span class="pill">Room 2003</span></div>
-            <p class="presenters">Charlie Guo, Developer Experience Engineer, OpenAI; Gabriel Chua, Developer Experience Engineer, OpenAI</p>
-            <p class="why">Best fit for scaling your Codex practice: task structuring, supervising agentic work, subagents, plugins, MCPs, and reusable recipes.</p>
-          </div>
-        </article>
-
-        <article class="session highlight">
-          <div class="time">11:05am-12:05pm<span class="badge">Highlight</span></div>
-          <div>
-            <h3><a href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_05_1315">How to Build Quality Gates into Agentic Coding Workflows</a></h3>
-            <div class="meta"><span class="pill">Track 7</span><span class="pill">Room 2024</span></div>
-            <p class="presenters">Nnenna Ndukwe, Principal Developer Advocate and Software Engineer, Qodo AI</p>
-            <p class="why">The bridge from fast vibe coding to reliable shipping: planning, tests, review, risk evaluation, and human judgment.</p>
-          </div>
-        </article>
-
-        <article class="session highlight">
-          <div class="time">12:10-1:10pm<span class="badge">Highlight</span></div>
-          <div>
-            <h3><a href="https://www.ai.engineer/worldsfair/schedule?session=asn_2026_06_29_workshop_track_05_1210">Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks</a></h3>
-            <div class="meta"><span class="pill">Track 2</span><span class="pill">Room 2006</span></div>
-            <p class="presenters">Nick Nisi, Developer Experience Engineer, WorkOS; Zack Proser, AI Engineer, Applied AI, WorkOS</p>
-            <p class="why">The best personal productivity session: voice coding, reusable skills, hooks, scheduled tasks, and better agent habits.</p>
-          </div>
-        </article>
-
-        <article class="session">
-          <div class="time">1:15-2:15pm</div>
-          <div>
-            <h3><a href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1420_2026_06_05t11_54_48_570z">Build a Platform, Unleash an Agent on it... and Watch it Burn!</a></h3>
-            <div class="meta"><span class="pill">Track 5</span><span class="pill">Room 2005</span></div>
-            <p class="presenters">Michael Forrester, AI Workforce Transformation, Accenture; Whitney Lee, Senior Technical Advocate, Datadog</p>
-            <p class="why">Best hands-on infrastructure and security pick: Kubernetes, GitOps, policy, runtime detection, governance gaps, and agent failure modes.</p>
-          </div>
-        </article>
-
-        <article class="session highlight">
-          <div class="time">2:20-4:20pm<span class="badge">Highlight</span></div>
-          <div>
-            <h3><a href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1420_2026_06_05t11_53_44_628z">Context Engineering in 2026: Compaction, Memory &amp; Cost</a></h3>
-            <div class="meta"><span class="pill">Track 6</span><span class="pill">Room 2014</span></div>
-            <p class="presenters">Louis-Fran&ccedil;ois Bouchard, CTO &amp; Co-Founder, Towards AI; Samridhi Vaid, Senior Machine Learning Engineer, Towards AI; Omar Solano, AI Engineer, Towards AI</p>
-            <p class="why">Highly relevant to long Codex sessions: memory, compaction, retrieval, skills loaded on demand, cost, and evals.</p>
-          </div>
-        </article>
-
-        <article class="session">
-          <div class="time">4:30-5:30pm</div>
-          <div>
-            <h3><a href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1315">The Dark Arts of Skill Engineering</a></h3>
-            <div class="meta"><span class="pill">Track 2</span><span class="pill">Room 2006</span></div>
-            <p class="presenters">Paul Bakaus, Founder, Renaissance Geek, Inc.</p>
-            <p class="why">Strong capstone for making agents more powerful through better skills, memory, hooks, subagents, and expert routing.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="alternatives">
-      <div class="section-head">
-        <h2 id="alternatives">Best Conflicts And Alternatives</h2>
-        <div class="hint">Useful for choosing between security, product, infrastructure, and productivity tracks.</div>
-      </div>
-
-      <div class="conflicts">
-        <table>
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Best Pick</th>
-              <th>Strong Alternative</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>9:00-11:00</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_03_0900_2026_06_13t06_05_35_605z">Cooking with Codex</a><span class="pick-meta">Track 3 / Room 2003 - OpenAI</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_2026_06_29_workshop_track_01_0900">From Vibes to Production 101</a><span class="pick-meta">Track 1 / Room 2010 - Laurie Voss, Arize AI</span></td>
-            </tr>
-            <tr>
-              <td>9:00-11:00</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_03_0900_2026_06_13t06_05_35_605z">Cooking with Codex</a><span class="pick-meta">Track 3 / Room 2003 - OpenAI</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_05_0900_2026_06_23t07_56_22_051z">AI Security Engineering 101</a><span class="pick-meta">Track 5 / Room 2005 - Javier Garza, Snyk</span></td>
-            </tr>
-            <tr>
-              <td>11:05-12:05</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_05_1315">Quality Gates</a><span class="pick-meta">Track 7 / Room 2024 - Qodo AI</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_2026_06_29_workshop_microsoft_presenting_sponsor_1105">From zero to deployed on Azure with AI agents</a><span class="pick-meta">Track M / Room 2001 - Gustavo Cordido, Microsoft</span></td>
-            </tr>
-            <tr>
-              <td>11:05-12:05</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_05_1315">Quality Gates</a><span class="pick-meta">Track 7 / Room 2024 - Qodo AI</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_07_01_breakout_track_01_1425_2026_06_08t11_12_30_233z">How I learned to stop worrying and love the sandbox</a><span class="pick-meta">Track 3 / Room 2003 - Matt Brockman, E2B</span></td>
-            </tr>
-            <tr>
-              <td>12:10-1:10</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_2026_06_29_workshop_track_05_1210">Lifestyles of the AI-Native</a><span class="pick-meta">Track 2 / Room 2006 - WorkOS</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_2026_06_29_workshop_track_04_1210">Build the Right Thing Part 1</a><span class="pick-meta">Track 4 / Room 2009 - Kent C. Dodds, EpicProduct.engineer</span></td>
-            </tr>
-            <tr>
-              <td>1:15-2:15</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1420_2026_06_05t11_54_48_570z">Build a Platform... Watch it Burn</a><span class="pick-meta">Track 5 / Room 2005 - Accenture + Datadog</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_04_1315_2026_06_15t13_09_05_634z">Build the Right Thing Part 2</a><span class="pick-meta">Track 4 / Room 2009 - Kent C. Dodds</span></td>
-            </tr>
-            <tr>
-              <td>1:15-2:15</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1420_2026_06_05t11_54_48_570z">Build a Platform... Watch it Burn</a><span class="pick-meta">Track 5 / Room 2005 - Accenture + Datadog</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_2026_06_29_workshop_track_06_1630">SonarQube + OpenAI: Wiring Your Team for Agentic Development</a><span class="pick-meta">Track 6 / Room 2014 - Killian Carlsen-Phelan</span></td>
-            </tr>
-            <tr>
-              <td>2:20-4:20</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1420_2026_06_05t11_53_44_628z">Context Engineering in 2026</a><span class="pick-meta">Track 6 / Room 2014 - Towards AI</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_05_1420_2026_06_23t07_56_22_912z">AI Security Engineering 201</a><span class="pick-meta">Track 5 / Room 2005 - Micah Silverman, Snyk</span></td>
-            </tr>
-            <tr>
-              <td>2:20-4:20</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1420_2026_06_05t11_53_44_628z">Context Engineering in 2026</a><span class="pick-meta">Track 6 / Room 2014 - Towards AI</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_2026_06_29_workshop_track_09_1630">Burn your flags: How PayPal designs interactive CLI tools for agents</a><span class="pick-meta">Track 4 / Room 2009 - Mark Lummus + Navinkumar Patil, PayPal</span></td>
-            </tr>
-            <tr>
-              <td>4:30-5:30</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1315">The Dark Arts of Skill Engineering</a><span class="pick-meta">Track 2 / Room 2006 - Paul Bakaus</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_30_breakout_track_05_1545_2026_06_18t07_59_51_272z">Agent Auth</a><span class="pick-meta">Track 5 / Room 2005 - Better Auth</span></td>
-            </tr>
-            <tr>
-              <td>4:30-5:30</td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_09_1315">The Dark Arts of Skill Engineering</a><span class="pick-meta">Track 2 / Room 2006 - Paul Bakaus</span></td>
-              <td><a class="pick-title" href="https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_29_workshop_track_08_1630_2026_06_19t22_53_15_418z">The Art and Science of Loopcraft with Pi</a><span class="pick-meta">Track 8 / Room 2020 - Joel Hooks, badass.dev / egghead.io</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
       </div>
 
       <div class="tab-panel day-2-panel">
