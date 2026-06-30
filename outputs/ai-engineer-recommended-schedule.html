@@ -329,6 +329,35 @@
       color: var(--blue);
     }
 
+    .map-grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .map-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #f7f7f4;
+      box-shadow: var(--shadow);
+    }
+
+    .map-card h3 {
+      margin: 0;
+      padding: 14px 16px;
+      color: #181a1f;
+      font-size: 18px;
+      letter-spacing: 0;
+      background: #fff;
+      border-bottom: 1px solid rgba(17, 17, 17, .12);
+    }
+
+    .map-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
     footer {
       margin-top: 28px;
       color: var(--muted);
@@ -670,6 +699,27 @@
         <div class="room"><strong>Track 7</strong>Room 2024</div>
         <div class="room"><strong>Track 8</strong>Room 2020</div>
         <div class="room"><strong>Track 9</strong>Room 2016</div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="venue-maps">
+      <div class="section-head">
+        <h2 id="venue-maps">Venue Maps</h2>
+        <div class="hint">Moscone West levels 1-3 for quick room and expo navigation.</div>
+      </div>
+      <div class="map-grid">
+        <figure class="map-card">
+          <h3>Moscone West - Level 1</h3>
+          <img src="assets/moscone-west-level-1.png" alt="Moscone West Level 1 map with expo stages, sponsor booths, concessions, restrooms, and entrance locations.">
+        </figure>
+        <figure class="map-card">
+          <h3>Moscone West - Level 2</h3>
+          <img src="assets/moscone-west-level-2.png" alt="Moscone West Level 2 map with breakout session tracks and room numbers.">
+        </figure>
+        <figure class="map-card">
+          <h3>Moscone West - Level 3</h3>
+          <img src="assets/moscone-west-level-3.png" alt="Moscone West Level 3 map with main stage, networking room, media room, and leadership rooms.">
+        </figure>
       </div>
     </section>
 
